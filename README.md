@@ -9,7 +9,7 @@ Uses a hidden catnip 3.0 character sheet to descriptively inform the AI how good
 Uses KillBot to give you experience points, and has an increasing exp requirement for leveling up. Leveling up gives you more stat buy points.  
 
 ## Spell Schools and Killbot
-Uses the skill menu to track your skills in the classic D&D spell schools (abjuration, etc). Each spell school has an 11% chance to start at 1 and an 11% chance to start at 2. The others start at 0. Specializing in a school via the scenario prompt can give you additional skill modifiers.
+Uses the skill menu to track your skills in the classic D&D spell schools (abjuration, etc). Each spell school has a 33% chance to start at 1 or 2. The others start at 0. Specializing in a school via the scenario prompt can give you additional skill modifiers.
 
 Uses a hidden catnip 3.0 character sheet to descriptively inform the AI how skilled you are in each spell school.
 
