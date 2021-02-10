@@ -22,7 +22,7 @@ Implements the "/en" command and "/hang" commands. When you type "/en" (without 
 
 \[Editor's note: **write a paragraph about her face, her striking beauty**.\]
 
-"\[Editor's note: " gets added to the front of your text; ".\]" gets added ot the back.
+"\[Editor's note: "   gets added to the front of your text;   ".\]" gets added ot the back.
 
 The command will put the editor's note directly in front of your *next new input*. The note will stay around until the *next new input after that*, so it only exists for one input, but will stay around for retrys.
 
