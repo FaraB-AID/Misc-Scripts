@@ -24,7 +24,7 @@ Implements the "/en" command and "/hang" commands. When you type "/en" (without 
 
 "\[Editor's note: "   gets added to the front of your text;   ".\]" gets added ot the back.
 
-The command will put the editor's note directly in front of your *next new input*. The note will stay around until the *next new input after that*, so it only exists for one input, but will stay around for retrys.
+The command will put the editor's note directly in front of your *next new, text-containing input*. The note will stay around until the *next new, text-containing input after that*, so it only exists for one input, but will stay around for retrys.
 
 The "/hang" command places any text that follows (it after a space, and excluding linebreaks) as a hidden hanging floater that goes just after your inputs, but just before the E/N. 
 
