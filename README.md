@@ -18,10 +18,16 @@ Uses a custom WI replacer to swap out the first (dummy) WI with a spellbook. Whe
 Uses KillBot to give you experience points, and has an increasing exp requirement for leveling up. Leveling up gives you more skill buy points. 
 
 ## Editor's Note
-Implements the "/en" command. When you type "/en" (without spaces, in do/say/story, w/e) followed by a space and any number of regular letters, such as "write a paragraph about her face" the command creates the following: 
+Implements the "/en" command and "/hang" commands. When you type "/en" (without quotes, in do/say/story, w/e) followed by a space and any text excepting line breaks, such as "write a paragraph about her face, her striking beauty
 
-\[Editor's note: write a paragraph about her face.\]
+\[Editor's note: **write a paragraph about her face, her striking beauty**.\]
+
+"\[Editor's note: " gets added to the front of your text; ".\]" gets added ot the back.
 
 The command will put the editor's note directly in front of your *next new input*. The note will stay around until the *next new input after that*, so it only exists for one input, but will stay around for retrys.
 
-You CANNOT include special characters or grammatical notation, such as ",':", etc, in this version at least. It will break the command.
+The "/hang" command places any text that follows (it after a space, and excluding linebreaks) as a hidden hanging floater that goes just after your inputs, but just before the E/N. 
+
+"/hang" doesn't do any formatting, so make sure to bracket your text with [] if you don't want it getting weird. 
+
+"/hang" text stays around until you overwrite it with a new "/hang" or type "/hang" again without any text afterwards (which removes the floater).
