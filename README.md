@@ -50,11 +50,13 @@ Note that the added text gets added *directly* after your prompt, with no inhere
 Original prompt: "... and the dragon appears."
 
 promptExtension = `
+
 You pull out your sword!`
 
 final prompt the player/AI sees on scenario start:
 
 "... and the dragon appears.
+
 You pull out your sword!"
 
 
