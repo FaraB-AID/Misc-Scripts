@@ -18,11 +18,11 @@ Uses a custom WI replacer to swap out the first (dummy) WI with a spellbook. Whe
 Uses KillBot to give you experience points, and has an increasing exp requirement for leveling up. Leveling up gives you more skill buy points. 
 
 ## Editor's Note
-Implements the "/en" command and "/hang" commands. When you type "/en" (without quotes, in do/say/story, w/e) followed by a space and any text excepting line breaks, such as "write a paragraph about her face, her striking beauty
+Implements the "/en" command and "/hang" commands. When you type "/en" (without quotes, in do/say/story, w/e) followed by a space and any text excepting line breaks, such as "write a paragraph about her face, her striking beauty"
 
 \[Editor's note: **write a paragraph about her face, her striking beauty**.\]
 
-"\[Editor's note: "   gets added to the front of your text;   ".\]" gets added ot the back.
+"\[Editor's note: " ...gets added to the front of your text... ".\]" gets added to the back.
 
 The command will put the editor's note directly in front of your *next new, text-containing input*. The note will stay around until the *next new, text-containing input after that*, so it only exists for one input, but will stay around for retrys.
 
