@@ -1,5 +1,6 @@
 # Single Scripts
-Single-file scripts that require you copy the text, then paste it replacing the indicated modifier.
+Single-file scripts that require you copy the text, then paste it replacing the indicated modifier. Most also include instructions for you to follow to customize or complete the script.
+
 
 ## Floating Text
 Paste this script into Context Modifier and follow its instructions to use it. 
