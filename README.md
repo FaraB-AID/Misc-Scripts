@@ -20,13 +20,13 @@ A variety of tools regarding Editor's Notes and hidden hanging text. Implements 
 ## Single Scripts
 Single-file scripts that require you copy the text, then paste it replacing the indicated modifier. Most also include instructions for you to follow to customize or complete the script. More detailed information available on each in the folder's readme.
 
-## Floating Text
+###### Floating Text
 Floats whatever you write into the indicated location # lines breaks back in the text.
 
 
-## Prompt Extender
+###### Prompt Extender
 Adds extra text directly after your prompt on scenario generation, before it gets sent to the player/AI.
 
 
-## Password Script
+###### Password Script
 This is a script to password lock scenarios.
