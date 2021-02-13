@@ -6,6 +6,9 @@ Random AID scripts that don't fall into larger projects.
 Multi-file scripts that require you download the zip, then upload the zip to your scenario using the script manager. More detailed information available on each in the folder's readme.
 
 
+###### Disguise Kit
+This is like a massively supercharged password script. Offers ultimate secrecy and protection for your true script, with a full suite of features, hidden behind a password that must be matched (case sensitive) in the inital prompt or memory to activate.
+
 ###### Stats and Killbot
 Uses the stat menu to track the classic D&D style attributes (STR, DEX, CON, INT, WIS, CHA), and KillBot to manage exp and leveling.
 
