@@ -13,7 +13,7 @@ const modifier = (text) => {
 //If it's not there, it deletes your prompt and WI entries.
 if(!state.initial){
   state.initial = true
-  if (!lowered.includes(passWord)){
+  if (!text.includes(passWord)){
     for(var i = 0; i < worldInfo.length; i++){
       removeWorldEntry(worldInfo[i].index)
       i--
