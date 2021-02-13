@@ -2,6 +2,20 @@
 # Zipped Scripts
 To install, download the zip and upload the zip to your scenario using the script manager.
 
+## Disguise Kit
+This is like a massively supercharged password script. Offers ultimate secrecy and protection for your true script, with a full suite of features, hidden behind a password that must be matched (case sensitive) in the inital prompt or memory (usually through placeholders) to activate.
+
+
+This includes the E/N script (detailed below), and those features are active whether a password is detected or not.
+
+
+Otherwise, if no password is detected, your scenario behaves exactly like a normal scenario. The prompt / memory / AN / WI you put in to the scenario editor all work.
+
+HOWEVER, it kicks into high gear when it detects a password, replacing the prompt, memory, and the A/N. It also deletes all the old WIs and puts in up to 10 new ones and offers the floating text feature.
+
+All the replacement text is filled in by the user after uploading the script. The **SHARED** tab has a list of variables to fill in and instructions on how to do so.
+
+
 ## Stats and Killbot
 Uses the stat menu to track the classic D&D style attributes (STR, DEX, CON, INT, WIS, CHA). Assigns your attributes randomly (from 8 to 12) on startup. Choosing a profession via the scenario prompt can give you additional stat modifiers.
 
