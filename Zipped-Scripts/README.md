@@ -16,26 +16,6 @@ HOWEVER, it kicks into high gear when it detects a password, replacing the promp
 All the replacement text is filled in by the user after uploading the script. The **SHARED** tab has a list of variables to fill in and instructions on how to do so.
 
 
-## Stats and Killbot
-Uses the stat menu to track the classic D&D style attributes (STR, DEX, CON, INT, WIS, CHA). Assigns your attributes randomly (from 8 to 12) on startup. Choosing a profession via the scenario prompt can give you additional stat modifiers.
-
-Uses a hidden catnip 3.0 character sheet to descriptively inform the AI how good each of your attributes are.
-
-Uses KillBot to give you experience points, and has an increasing exp requirement for leveling up. Leveling up gives you more stat buy points.  
-
-
-## Universitas Arcanorum (formerly Spell Schools)
-This script has evolved from its original purpose into a custom script for RogueSphinx's Universitas Arcanorum scenario. I will eventually update with everything it does, but it's still WIP.
-
-Uses the skill menu to track your skills in the classic D&D spell schools (abjuration, etc). Each spell school has a 33% chance to start at 1 or 2. The others start at 0. Specializing in a school via the scenario prompt can give you additional skill modifiers.
-
-Uses a hidden catnip 3.0 floating character sheet to descriptively inform the AI how skilled you are in each spell school.
-
-Uses a custom WI replacer to swap out the first (dummy) WI with a spellbook. Whenever that spellbook WI is triggered, another script replaces it with a catnip 3.0-formatted floating spellbook that appears just behind the A/N.
-
-Uses KillBot to give you experience points, and has an increasing exp requirement for leveling up. Leveling up gives you more skill buy points. 
-
-
 ## Editor's Note
 Implements the "/en", "/hang", "/editor", and "display" commands. 
 
@@ -66,3 +46,29 @@ Editor mode E/Ns stack with "/en" E/Ns and hangs.
 
 
 "/display" shows the editor mode E/N at the top of your screen. Use "/display" again to turn the display off.
+
+
+## Stats and Killbot
+Uses the stat menu to track the classic D&D style attributes (STR, DEX, CON, INT, WIS, CHA). Assigns your attributes randomly (from 8 to 12) on startup. Choosing a profession via the scenario prompt can give you additional stat modifiers.
+
+Uses a hidden catnip 3.0 character sheet to descriptively inform the AI how good each of your attributes are.
+
+Uses KillBot to give you experience points, and has an increasing exp requirement for leveling up. Leveling up gives you more stat buy points.  
+
+
+## Universitas Arcanorum (formerly Spell Schools)
+This script has evolved from its original purpose into a custom script for RogueSphinx's Universitas Arcanorum scenario.
+
+Uses the skill menu to track your skills in the classic D&D spell schools (abjuration, etc). Each spell school has a 33% chance to start at 1 or 2. The others start at 0. Specializing in a school via the scenario prompt can give you additional skill modifiers.
+
+Uses a hidden catnip 3.0 floating character sheet to descriptively inform the AI how skilled you are in each spell school.
+
+Uses a custom WI replacer to swap out the first (dummy) WI with a spellbook. Whenever that spellbook WI is triggered, another script replaces it with a catnip 3.0-formatted floating spellbook that appears just behind the A/N.
+
+Tracks when you get a familiar and what type it is, then updates both a familiar WI and a floating character sheet with the information. When the WI is changed, so is the character sheet.
+
+Uses FamiliarBot to give you experience points, experience rationale, and witty pet comentary. Commentary is from your familiar (as above), and uses its name (if any). Commentary only appears when you have a familiar. 
+
+Has an increasing exp requirement for leveling up. Leveling up gives you more skill buy points.
+
+Uses a tic stystem to track time manage an event system. Event system uses hidden E/Ns to drive the AI to introduce requested story elements.
