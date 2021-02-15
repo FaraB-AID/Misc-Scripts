@@ -2,6 +2,15 @@
 # Zipped Scripts
 To install, download the zip and upload the zip to your scenario using the script manager.
 
+## Prompt Generator
+
+Fairly straightforward script that creates a hidden bonus floating Author's Note and temporary hanging Editor's Note from entries into a scenario prompt. Includes a /show command to paste them as an output.
+
+
+The script won't make much sense out of context of the scenario prompt, which is this:
+
+☀${First, for the Author’s Note, set the general setting of the story. Use terms such as fantasy, dark forest, or medieval}☁${Next, set the writing style the AI will use. Use terms such as vivid, purple prose, or energetic}☂${Next, set the focus for the AI. Use terms such as pirate, dark fantasy, or steampunk}☃${Next, briefly detail your character. Use terms such as charming, handsome, or knight errant}☄${Next, name a secondary character (leave blank if there is none)}★${Briefly detail the secondary character (leave blank if there is none)} ☆${Next, name a tertiary character (leave blank if there is none)} ☇${Briefly detail the tertiary character (leave blank if there is none)}☈${Moving on to the Editor’s Note, set the location of the opening scene. Use terms such as empty road, castle, parapets}☉${Lastly, set the opening scene. Use terms such as dragon attack, goblin ambush, feast}☊
+
 ## Disguise Kit
 This is like a massively supercharged password script. Offers ultimate secrecy and protection for your true script, with a full suite of features, hidden behind a password that must be matched (case sensitive) in the inital prompt or memory (usually through placeholders) to activate.
 
