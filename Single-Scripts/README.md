@@ -4,7 +4,9 @@ Single-file scripts that require you copy the text, then paste it replacing the 
 
 ## Dice Roller
 Adds the following command:
+
 /𝗿𝗼𝗹𝗹 𝓃𝒶𝓂𝑒 𝘥𝘪𝘤𝘦𝘯𝘶𝘮𝘣𝘦𝘳d𝓈𝒾𝒹𝑒𝓈+/-𝘮𝘰𝘥𝘪𝘧𝘪𝘦𝘳 𝓇𝑒𝒶𝓈𝑜𝓃
+
 Rolls 𝘥𝘪𝘤𝘦𝘯𝘶𝘮𝘣𝘦𝘳 dice with 𝓈𝒾𝒹𝑒𝓈 number of sides, generating a random result. Only "d𝓈𝒾𝒹𝑒𝓈" is necessary for the command to work; the rest add additional information to the message displayed. 
 For example "/roll FaraB 8d6+4 fireball" rolls 8 6-sided dice, then adds an additional 4 to the total. It then creates a message like:
 "FaraB rolled 8d6+4 (4,3,1,1,2,5,6,2) Total: 28 for fireball."
