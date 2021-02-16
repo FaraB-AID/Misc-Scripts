@@ -17,6 +17,13 @@ The script won't make much sense out of context of the scenario prompt, which is
 A multiplayer chat / roleplay room script that allows AI to be toggled (default off), allows one-shot directed AI outputs through a command that produces an Editor's Note, creates color-coded commands that inform about consent levels and (in the case of Red) halts play until disabled. Dice roller included for tabletop goodness.
 
 
+###### Change Over Time
+A script that swaps out memory, A/N, E/N, WI, and float text based on your current action count.
+Has up to 10 different phases you can set up individually. If the player reduces their action count (by undoing) they go back to the apropriate phase. 
+
+To set the script up, upload the scipt to the AID script editor (or the shared.js file to a text editor of your choice) then edit the variables in **Shared Library** according to the instructions there.
+
+
 ## Disguise Kit
 This is like a massively supercharged password script. Offers ultimate secrecy and protection for your true script, with a full suite of features, hidden behind a password that must be matched (case sensitive) in the inital prompt or memory (usually through placeholders) to activate.
 
