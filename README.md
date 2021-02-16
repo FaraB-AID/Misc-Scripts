@@ -11,6 +11,9 @@ Fairly straightforward script that creates a hidden bonus floating Author's Note
 ###### SafePlay Room
 A multiplayer chat / roleplay room script that allows AI to be toggled (default off), allows one-shot directed AI outputs through a command that produces an Editor's Note and creates color-coded consent level commands. Dice roller included for tabletop goodness.
 
+###### Change Over Time
+A script that swaps out memory, A/N, E/N, WI, and float text based on your current action count.
+
 ###### Disguise Kit
 This is like a massively supercharged password script. Offers ultimate secrecy and protection for your true script, with a full suite of features, hidden behind a password that must be matched (case sensitive) in the inital prompt or memory to activate.
 
