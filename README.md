@@ -25,7 +25,7 @@ This script has evolved from its original purpose into a custom script for Rogue
 
 
 ###### Editor's Note
-A variety of tools regarding Editor's Notes and hidden hanging text. Implements the "/en", "/hang", "/editor", and "display" commands. 
+A variety of tools and commands that allow you to easily implement Editor's Notes and other hanging/floating text. 
 
 
 ## Single Scripts
