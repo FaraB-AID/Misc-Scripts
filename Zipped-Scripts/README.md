@@ -5,7 +5,9 @@ To install, download the zip and upload the zip to your scenario using the scrip
 ## Editor's Note
 A variety of tools and commands that allow you to easily implement Editor's Notes and other floating text.
 
-Implements the "/en", "/float", "/editor", "/display", "/auto", "/format", "/endist", "/floatdist" commands. 
+Implements the "/enhelp", "/en", "/float", "/editor", "/display", "/auto", "/format", "/endist", "/floatdist" commands. 
+
+**/enhelp** lists commands and their functions. Use again to hide the list.
 
 **/en** *text* places a hidden editor's note including *text* directly at the front of your context. By default, submitting the E/N will also submit an empty-ish input (" "), applying the E/N. If you retry, the E/N will continue to apply. However, once you continue or put in a new input after the E/N has applied, it will be removed (without applying). 
 
