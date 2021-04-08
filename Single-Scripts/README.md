@@ -12,6 +12,8 @@ This script requires you to use a prompt placeholder, which the user will fill i
 
 The *placeholder text* can be anything you'd normally put as a placeholder, such as `Is your romantic partner a man, woman, or nonbinary?` or `Choose a pronoun for your customer: he/she/they`
 
+The placeholder as formatted above will be removed from the final prompt in its entirety (both the bracketing and the text the user responds with). This allows you to put the placeholder anywhere in the prompt for maximum flexibility (as placeholders gets presented to the user in the order they are encountered).
+
 The script will scan the text the player inputs into the placeholder and determine pronoun type based on their entry.
 
 `she|her|hers|herself|feminine|female|fem|woman` in the placeholder result in fem pronouns being used.
