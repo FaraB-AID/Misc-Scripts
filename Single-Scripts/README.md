@@ -2,6 +2,40 @@
 Single-file scripts that require you copy the text, then paste it replacing the indicated modifier. Most also include instructions for you to follow to customize or complete the script.
 
 ## Pronoun Swapper
+This script has the scenario user fill in a placeholder that describes a gender or pronoun, then substitutes pronoun replacement markers made in the prompt with pronouns of the appropriate gender. This lets you holistically refer to a person of chosable gender in the prompt with pronouns.
+
+**Placeholder**
+
+This script requires you to use a prompt placeholder, which the user will fill in with a response signifying a gender for later pronoun use. The placeholder must be formatted as such:
+
+`{ppl:${placeholder text}}`
+
+The *placeholder text* can be anything you'd normally put as a placeholder, such as `Is your romantic partner a man, woman, or nonbinary?` or `Choose a pronoun for your customer: he/she/they`
+
+The script will scan the text the player inputs into the placeholder and determine pronoun type based on their entry.
+
+`she|her|hers|herself|feminine|female|fem|woman` in the placeholder result in fem pronouns being used.
+
+`he|him|his|himself|masculine|male|masc|man` in the placeholder result in masc pronouns being used.
+
+`they|them|their|theirs|themselves|neuter|neutral|neutroi|nonbinary|other` or a lack of detectible gender signifiers in the placeholder result in neutral pronouns being used.
+
+
+**Replacement Markers**
+There are five replacement markers, corresponding to the five types of pronouns in English (refer to the chart below for reference). Put replacement markers into your prompt, where pronouns of the appropriate gender (as determined by the placeholder above) should get placed. If the first letter of a replacement marker is capitalized, the replacement pronoun's first letter will also be captialized.
+
+**Note:** Replacement markers will only work in the prompt, not memory/AN/WI; and the script only runs once, on the prompt (initial input).
+
+`{sp}` gets replaced with `she|he|they`
+
+`{op}` gets replaced with `him|her|them`
+
+`{pa}` gets replaced with `his|her|theirs`
+
+`{pp}` gets replaced with `his|hers|theirs`
+
+`{rp}` gets replaced with `himself|herself|themselves`
+
 ![Pronoun Chart](https://i.ytimg.com/vi/h_GnSOIfWf4/maxresdefault.jpg)
 
 ## Dice Roller
