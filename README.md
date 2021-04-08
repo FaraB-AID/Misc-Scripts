@@ -31,6 +31,9 @@ A variety of tools and commands that allow you to easily implement Editor's Note
 ## Single Scripts
 Single-file scripts that require you copy the text, then paste it replacing the indicated modifier. Most also include instructions for you to follow to customize or complete the script. More detailed information available on each in the folder's readme.
 
+###### Pronoun Swapper
+This script has the scenario user fill in a placeholder that describes a gender or pronoun, then substitutes pronoun replacement markers made in the prompt with pronouns of the appropriate gender. This lets you holistically refer to a person of chosable gender in the prompt with pronouns.
+
 ###### Dice Roller
 Adds the /roll command, creating a comprehensive dice-roller that informs players of results through messages. Built with MP in mind, but could be adapted for single-player scenarios.
 
