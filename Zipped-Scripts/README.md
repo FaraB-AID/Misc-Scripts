@@ -23,7 +23,7 @@ The first word inside those brackets, `name`, will be the name stats will be att
 
 `stats:` must always be included. This indicates to the script that the bracketed text is a Stats note.
 
-Each `stat: #` should be replaced with the name of a valid stat and a number between 1-5. The `:` separating stat name and number must remain. Stats notes can have any number of stats, though it's recommended to use as few as needed to not overwhelm the AI with information. Stats can be separated from eachother with linebreaks, spaces, commas, or they can not be separated at all. The following format is harder to read, but valid:
+Each `stat: #` should be replaced with the name of a valid stat and a number between 1-5. The `:` separating stat name and number must remain. Stats notes can have any number of stats, though it's recommended to use as few as needed to not overwhelm the AI with information. Stats don't need to be separated from eachother in the Note. Inlcude as few or as many linebreaks, spaces, commas, etc, in the Note as needed to make it readable and usable for you. The following format is harder to read than the first, but conveys the same information to the script:
 
 ```
 {name stats:stat:#stat:#stat:#}
@@ -43,7 +43,7 @@ Sadism – Masochism – Pain Sensitivity – Pleasure Sensitivity – Elasticit
 Here is a practical example of a Stats note:
 
 ```
-{ Queen Madras stats:
+{Queen Madras stats:
 corruption: 4, lust: 4, selfishness: 5
 breast size: 2
 willpower: 5, confidence: 4
