@@ -5,7 +5,7 @@ To install, download the corresponding zip file here, then upload the zip to you
 ## Stats++ Framework
 This Notes++-based script allows for Stats notes that converts numeric stat sheets into backend catnip sheets. Usable for multiple characters at once; can be adjusted dynamically (though the script does not automatically do so, yet).
 
-Some knowledge of Notes++ may be useful for using this script.
+Stats++ is based on and includes Notes++. Some knowledge of Notes++ may be useful for using this script.
 
 https://github.com/FaraB-AID/NotesPlus
 
